@@ -1,0 +1,128 @@
+@font-face{
+  font-family:CircularStdBook;
+  src: url(../assets/fonts/CircularStdBook.ttf);
+}
+@font-face {
+  font-family: MADETOMMY;
+  src: url(../assets/fonts/MADETOMMY.otf);
+}
+body {
+  font-family:CircularStdBook !important;
+  background: #000 !important;
+  color: #fff !important;
+}
+
+::-webkit-scrollbar {width: 8px;}
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;background: #cecece31;
+  transition: 0.1s !important;
+}::-webkit-scrollbar-thumb:hover {
+  transition: 0.1s !important;
+  background: #fff;
+  cursor: pointer;
+}
+.navbar{
+  border-bottom: rgba(255, 255, 255, 0.103) solid 1px; 
+  height: 80px;
+  background: #000 !important;
+  z-index: 1 !important;
+}
+.w-100{
+  width: 100%;
+}.h-100{
+  min-height: 100vh;
+}.h-50{
+  min-height: 50vh;
+}.pt-pb-100{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}.opcity-02{
+  opacity: 0.2;
+}.opcity-04{
+  opacity: 0.4;
+}.opcity-06{
+  opacity: 0.6;
+}.satis{
+  background: rgb(11, 11, 11);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.display-1{
+  font-weight: bold !important;
+}
+.font-family-MADETOMMY{
+  font-family: MADETOMMY !important;
+}
+.border-opacity-3{
+  border: rgba(255, 255, 255, 0.103) solid 1px;
+}
+footer{
+  border-top: rgba(255, 255, 255, 0.103) solid 1px; 
+  padding-top: 130px;
+  padding-bottom: 130px;
+  text-align: center;
+}
+.offcanvas{
+  background: #000 !important;
+  color: #fff !important;
+}
+.a-link-menu-sub{
+  transition: 0.3s;
+  color: #fff !important;
+  text-decoration: none !important;
+}
+.a-link-menu-sub:hover{
+  transition: 0.3s;
+  color: #0d6efd !important;
+  text-decoration: none !important;
+}
+.closs-menu-btn{
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  color: #fff;
+  cursor: pointer;
+}.h5-link{
+  text-decoration: none;
+  color: #fff !important;
+  transition: 0.2s;
+}
+.link-en{
+  text-decoration: none;
+  color: #fff !important;
+  transition: 0.2s;
+}.link-en:hover{
+  text-decoration:underline;
+  transition: 0.2s;
+}.link-en.active{
+  text-decoration:underline;
+  transition: 0.2s;
+}
+.link-pt{
+  text-decoration: none;
+  color: #fff !important;
+  transition: 0.2s;
+}.link-pt:hover{
+  text-decoration:underline;
+  transition: 0.2s;
+}.link-pt.active{
+  text-decoration:underline;
+  transition: 0.2s;
+}.font-14{
+  font-size: 15px !important;
+}.icon-link{
+  margin: 12px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 23px;
+  transition:0.3s;
+}.icon-link:hover{
+  margin: 12px;
+  text-decoration: none;
+  color: #e2e2e2;
+  font-size: 23px;
+  transition:0.3s;
+}
