@@ -126,3 +126,6 @@ footer{
   font-size: 23px;
   transition:0.3s;
 }
+@media (max-width: 768px) { .delatDivmax768{
+  display: none;
+} }
